@@ -1,0 +1,410 @@
+@import url(root.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Work+Sans:wght@600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none !important;
+    box-sizing: border-box;
+}
+
+.ff-poppins {
+    font-family: 'poppins' sans-serif
+}
+
+.bg-image {
+    background-image: url(../image/backgroundimg.png);
+    background-size: cover;
+    flex-wrap: wrap;
+    background-position: center;
+
+}
+
+.logo {
+    font-family: Poppins;   
+   
+    
+}
+
+.text {
+    font-family: Poppins;
+
+   
+}
+.line{
+    text-decoration: line-through !important;
+}
+
+.mx-515 {
+    max-width: 515px;
+}
+
+.mw-547 {
+    max-width: 547px;
+}
+
+
+.ml-40 {
+    margin-left: 40px;
+}
+
+.py-40 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.get {
+    padding: 11px 28px;
+    border-radius: 28px;
+    color: #001D49;
+    border: none;
+}
+
+.mr-20 {
+    margin-right: 20px;
+}
+
+.bg-color {
+    background-color: #000122
+}
+
+.pt-150 {
+    padding-top: 150px;
+}
+
+.one {
+
+    opacity: 50%;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.cards {
+    padding-top: 24px;
+
+    padding: 10px;
+    border-radius: 20px;
+    background: #031227;
+    padding-bottom: 110px;
+    flex-shrink: 0;
+}
+
+.new {
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.para {
+    opacity: 70%;
+}
+
+.collection {
+    margin-top: 30px;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.chart {
+    margin-top: 13px;
+    color: #FFF;
+    font-style: normal;
+    line-height: 150%;
+    opacity: 70%;
+
+}
+
+
+/* roadmap */
+.d-none {
+    display: none;
+}
+
+.d-block {
+    display: block;
+}
+
+
+
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    border-left: 1px dashed;
+    padding-top: 20px;
+    background: #FFF;
+    top: 42px;
+    bottom: -43px;
+    left: 50%;
+    margin-left: -3px;
+}
+
+
+.container1 {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+
+
+.container1::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -10px;
+    background-color: #009DFF;
+    border: 4px solid #FFf;
+    top: 38px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+
+.left {
+    left: 0;
+}
+
+
+.right {
+    left: 50%;
+}
+
+
+.left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+
+    border-width: 10px 0 10px 10px;
+
+}
+
+.mw-786 {
+    max-width: 786px;
+}
+
+.right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+
+    border-width: 10px 10px 10px 0;
+
+}
+
+.py-110 {
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+
+.last {
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.data {
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    opacity: 70%;
+
+}
+
+.sed {
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: right;
+    opacity: 70%;
+}
+
+.ques2 {
+    text-align: right;
+    line-height: 45px;
+
+}
+
+.right::after {
+    left: -13px;
+}
+
+.mw-542 {
+    max-width: 542px;
+}
+
+
+
+.content {
+    padding: 20px 30px;
+    position: relative;
+    border-radius: 6px;
+    width: 100%;
+}
+
+/* .accordion */
+
+.card5 {
+
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 150px !important;
+    background: #031227;
+    color: #FFF;
+
+}
+
+.few {
+
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.accordion-button {
+    border-radius: 150px !important;
+    color: #FFF !important;
+    border: unset !important;
+}
+
+.margin-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.accordion-item {
+    color: #FFF !important;
+}
+
+.accordion {
+    --bs-accordion-border-color: none !important;
+    --bs-accordion-bg: none !important;
+    max-width: 830px;
+    --bs-accordion-active-bg: none !important;
+}
+.mx-764{
+    max-width: 764px;
+}
+/* footer */
+.bg-image2 {
+   background-image:url(../image/line15);
+    background-size: cover;
+    flex-wrap: wrap;
+    background-position: center;
+
+}
+.pb-50{
+    padding-bottom: 50px;
+}
+.mw-385{
+    max-width: 385px;
+
+}
+.footer-text{
+    opacity: 60%;
+}
+
+/* responsive */
+
+@media screen and (max-width: 600px) {
+
+    /* Place the timelime to the left */
+    .timeline::after {
+        left: 31px;
+    }
+
+    .text-s{
+        text-align: left;
+    }
+
+    /* Full-width containers */
+    .container1 {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+
+    /* Make sure that all arrows are pointing leftwards */
+    .container1::before {
+        left: 60px;
+
+        border-width: 10px 10px 10px 0;
+
+    }
+
+    /* Make sure all circles are at the same spot */
+    .left::after,
+    .right::after {
+        left: 15px;
+    }
+
+    /* Make all right containers behave like the left ones */
+    .right {
+        left: 0%;
+    }
+}
+
+@media (max-width:768px) {
+    label[for="menubar"] {
+        display: flex;
+        justify-content: space-between;
+        width: 30px;
+        height: 25px;
+        position: relative;
+        z-index: 1;
+        cursor: pointer;
+        flex-direction: column;
+
+    }
+
+    label[for="menubar"]>span {
+        width: 100%;
+        height: 4px;
+        background-color: rgb(22, 19, 3);
+        border-radius: 3px;
+
+    }
+
+    ul.mobile-view {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background-color: goldenrod;
+        transition: all 300ms linear;
+    }
+
+    input[type="checkbox"][id=menubar]:checked+ul.mobile-view {
+        left: 0;
+    }
+
+
+}
